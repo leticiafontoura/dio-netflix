@@ -18,7 +18,7 @@
 
 /*alterando comportamento em telas de no minimo 1000px de largura, o p sinopse terá apenas 50% de largura do tamanho total da tela.*/
 
-@media screen and (min-width: 100px) {
+@media screen and (min-width: 1000px) {
   .sinopse {
     width: 50%;
   }
