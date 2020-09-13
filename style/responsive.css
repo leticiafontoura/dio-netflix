@@ -1,0 +1,20 @@
+/*alterando comportamento em telas de no máximo 700px de largura. a nav bar, aqui, vai ser jogada pra baixo do "Netflix" por estar se comportando como coluna.*/
+
+@media screen and (max-width: 700px) {
+  header .container {
+    display: flex;
+    flex-direction: column;
+  }
+  .btn {
+    margin-top: 5px;
+    width: 300px;
+  }
+}
+
+/*alterando comportamento em telas de no minimo 1000px de largura, o p sinopse terá apenas 50% de largura do tamanho total da tela.*/
+
+@media screen and (min-width: 100px) {
+  .sinopse {
+    width: 50%;
+  }
+}
