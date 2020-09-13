@@ -9,6 +9,11 @@
     margin-top: 5px;
     width: 300px;
   }
+  .modal-content {
+    width: 90%;
+    font-size: 0.9rem;
+    background-color: rgba(255, 255, 255, 0.9);
+  }
 }
 
 /*alterando comportamento em telas de no minimo 1000px de largura, o p sinopse terá apenas 50% de largura do tamanho total da tela.*/
